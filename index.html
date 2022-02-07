@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>ARE YOU A LAKE SHOW FAN?</title>
+        <link rel="stylesheet" href="CSS/mystyle.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="pic/favicon3-32x32.png">
+        <style>
+            .body2{
+              background-image: url('pic/lakers2.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+            }
+            </style>
+</head>
+
+<body class="body2">
+    <h2 style="color: purple;">ARE YOU A LAKERS FAN?</h2>
+    <form method="get" action="https://daniel280699.github.io/first/">
+        <div>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required minlength="3" maxlength="7">
+        </div>
+        <div>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required minlength="3" maxlength="15">
+        </div>
+        <div>
+            <label for="color"> choose your favorite color:</label><br>
+            <input type="color">
+        </div>
+        <div>
+            <label for="gender"> select gender:</label><br>
+            Male<input type="radio" name="gender" value="Male">
+            Female<input type="radio" name="gender" value="Female">
+        </div>
+        <div>
+            <label for="player"> Choose the greatest NBA player:</label><br>
+            LBJ<input type="radio" name="player" value="LBJ">
+            <img src="pic/LBJ.jpg">
+            MJ<input type="radio" name="player" value="MJ">
+            <img src="pic/MJ.jpg">
+        </div>
+        <div>
+            <textarea rows="15" cols="50" required placeholder="Please tell me about yourself:How old are you? 
+What is your favorite sport?
+Who is the greatest basketball player of all time?
+
+                    here"></textarea>
+        </div>
+        
+            <input type="submit" value="Submit" class="button2">
+        
+        <input type="reset" value="reset" style="background-color: red;">
+
+    </form>
+
+</body>
+
+</html>
